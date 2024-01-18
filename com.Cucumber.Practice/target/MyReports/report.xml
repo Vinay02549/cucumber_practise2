@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.304613">
+    <testcase classname="uber Booking Feature" name="Booking Cab Sedan" time="0.296307">
+        <system-out>
+            <![CDATA[Given user wants to select a car type "Sedon" from uber application.........skipped
+When user selects car "Sedon" and pick up point "Bangalore" and drop location "Pune".skipped
+Then Driver starts the journey..............................................skipped
+And Driver ends the journey.................................................skipped
+Then user pays 1300 USD.....................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="uber Booking Feature" name="Booking Cab SUV" time="0.003831">
+        <system-out>
+            <![CDATA[Given user wants to select a car type "suv" from uber application...........skipped
+When user selects car "Sedon" and pick up point "Bangalore" and drop location "Pune".skipped
+Then Driver starts the journey..............................................skipped
+And Driver ends the journey.................................................skipped
+Then user pays 1080 USD.....................................................skipped
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="uber Booking Feature" name="Booking Cab for Mini" time="0.004475">
+        <system-out>
+            <![CDATA[Given user wants to select a car type "Mini" from uber application..........skipped
+When user selects car "Sedon" and pick up point "Bangalore" and drop location "Pune".skipped
+Then Driver starts the journey..............................................skipped
+And Driver ends the journey.................................................skipped
+Then user pays 2090 USD.....................................................skipped
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

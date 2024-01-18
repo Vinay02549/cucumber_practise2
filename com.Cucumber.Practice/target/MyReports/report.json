@@ -1,0 +1,359 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-05T18:02:54.009Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4126600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "AmazonHooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Booking Cab Sedan",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-sedan",
+        "after": [
+          {
+            "result": {
+              "duration": 36200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "AmazonHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 470600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user wants to select a car type \"Sedon\" from uber application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedon\"",
+                  "offset": 32
+                }
+              ],
+              "location": "UberBookingSteps.user_wants_to_select_a_car_type_sedon_from_uber_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user selects car \"Sedon\" and pick up point \"Bangalore\" and drop location \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedon\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 73
+                }
+              ],
+              "location": "UberBookingSteps.user_selects_car_and_pick_up_point_and_drop_location(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50600,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user pays 1300 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1300",
+                  "offset": 10
+                }
+              ],
+              "location": "UberBookingSteps.user_pays_USD(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-05T18:02:54.323Z",
+        "line": 14,
+        "name": "Booking Cab SUV",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-suv",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33800,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user wants to select a car type \"suv\" from uber application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suv\"",
+                  "offset": 32
+                }
+              ],
+              "location": "UberBookingSteps.user_wants_to_select_a_car_type_sedon_from_uber_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54300,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user selects car \"Sedon\" and pick up point \"Bangalore\" and drop location \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedon\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 73
+                }
+              ],
+              "location": "UberBookingSteps.user_selects_car_and_pick_up_point_and_drop_location(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37100,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 269200,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user pays 1080 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1080",
+                  "offset": 10
+                }
+              ],
+              "location": "UberBookingSteps.user_pays_USD(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-05T18:02:54.336Z",
+        "line": 22,
+        "name": "Booking Cab for Mini",
+        "description": "",
+        "id": "uber-booking-feature;booking-cab-for-mini",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45300,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user wants to select a car type \"Mini\" from uber application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mini\"",
+                  "offset": 32
+                }
+              ],
+              "location": "UberBookingSteps.user_wants_to_select_a_car_type_sedon_from_uber_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34200,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user selects car \"Sedon\" and pick up point \"Bangalore\" and drop location \"Pune\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sedon\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 73
+                }
+              ],
+              "location": "UberBookingSteps.user_selects_car_and_pick_up_point_and_drop_location(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Driver starts the journey",
+            "match": {
+              "location": "UberBookingSteps.driver_starts_the_journey()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37500,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Driver ends the journey",
+            "match": {
+              "location": "UberBookingSteps.driver_ends_the_journey()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32700,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user pays 2090 USD",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2090",
+                  "offset": 10
+                }
+              ],
+              "location": "UberBookingSteps.user_pays_USD(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Prod"
+          }
+        ]
+      }
+    ],
+    "name": "uber Booking Feature",
+    "description": "",
+    "id": "uber-booking-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/uber.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
